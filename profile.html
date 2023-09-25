@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/prof.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+         <nav>
+            <a href="index.html"><h1>BERMINGHAM SHOES</h1></a>
+            <ul>
+                <li><a href="featuredShoes.html">Featured Shoes</a></li>
+                <li><a href="newArrivals.html">New Arrivals</a></li>
+                <li><a href="BestSeller.html">Best Sellers</a></li>
+                <li class="cart"><a href="Cart.html">Cart</a></li>
+                <li class="login"><a href="Logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <section class="banner">
+            <h2>Profile</h2>
+            <p>Discover the perfect pair of shoes for every occasion.</p>
+        </section>
+    <div class="container">
+        <section class="profile-info">
+            <h2>My Profile</h2>
+            <div class="user-info">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" value="John Doe" disabled>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="johndoe@example.com" disabled>
+
+                <label for="address">Address</label>
+                <textarea id="address" name="address" disabled>123 Main Street Anytown, NY 12345, United States</textarea>
+            </div>
+        </section>
+
+        <section class="order-history">
+            <h2>Order History</h2>
+            <ul class="order-list">
+                <!-- Sample Order 1 -->
+                <li>
+                    <span class="order-id">Order #12345</span>
+                    <span class="order-date">Date: July 28, 2023</span>
+                    <span class="order-total">Total: $99.99</span>
+                    <button class="view-order-btn">View Details</button>
+                </li>
+
+                <!-- Sample Order 2 -->
+                <li>
+                    <span class="order-id">Order #67890</span>
+                    <span class="order-date">Date: July 20, 2023</span>
+                    <span class="order-total">Total: $29.99</span>
+                    <button class="view-order-btn">View Details</button>
+                </li>
+                <!-- Add more order history here -->
+            </ul>
+        </section>
+    </div>
+</main>
+    <footer>
+        <p>&copy; 2023 Modern Shoe Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

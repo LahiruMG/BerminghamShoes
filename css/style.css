@@ -1,0 +1,174 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0042A3;
+    color: #fff;
+    padding: 10px;
+}
+
+/* ... existing CSS styles ... */
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the Cart and Login buttons */
+nav .cart,
+nav .login {
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 4px;
+}
+
+nav .cart a,
+nav .login a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.banner {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.banner h2 {
+    margin-bottom: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #0042A3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p.price {
+    font-weight: bold;
+}
+
+.product p.description {
+    color: #555;
+}
+
+.product button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+
+.product-grid-banner{
+display:flex;
+justify-content: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}

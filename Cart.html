@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/carrt.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header>
+        <nav>
+            <a href="index.html"><h1>BERMINGHAM SHOES</h1></a>
+             <ul>
+                <li><a href="featuredShoes.html">Featured Shoes</a></li>
+                <li><a href="newArrivals.html">New Arrivals</a></li>
+                <li><a href="BestSeller.html">Best Sellers</a></li>
+                <li class="cart"><a href="Cart.html">Cart</a></li>
+                <li class="login"><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <h2>Cart</h2>
+            <p>Discover the perfect pair of shoes for every occasion.</p>
+        </section>
+
+    <div class="container">
+        <div class="cart-items">
+            <!-- Sample Cart Item 1 -->
+            <div class="cart-item">
+                <img src="Images/shoe4.jpeg" alt="Item 1">
+                <div class="item-details">
+                    <h2>Men's Winter Ready Hiking Boots</h2>
+                    <p class="price">$69.99</p>
+                    <div class="quantity">
+                        <label for="quantity1">Quantity:</label>
+                        <input type="number" id="quantity1" name="quantity1" value="1" min="1">
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+
+            <!-- Sample Cart Item 2 -->
+            <div class="cart-item">
+                <img src="Images/shoe8.jpeg" alt="Item 2">
+                <div class="item-details">
+                    <h2>Couple Summer Slipers</h2>
+                    <p class="price">$29.99</p>
+                    <div class="quantity">
+                        <label for="quantity2">Quantity:</label>
+                        <input type="number" id="quantity2" name="quantity2" value="2" min="1">
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+            <!-- Add more cart items here -->
+        </div>
+
+        <div class="cart-total">
+            <h3>Total: $129.97</h3>
+            <a href="/checkout" class="checkout-btn">Proceed to Checkout</a>
+        </div>
+    </div>
+     <footer>
+        <p>&copy; 2023 Modern Shoe Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

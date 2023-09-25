@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Login</title>
+    <link rel="stylesheet" href="css/log.css">
+     <link rel="stylesheet" href="css/style.css">
+      <style>
+            header {
+                background-color: #0042A3;
+                color: #fff;
+                width:100%;
+                padding-top: 0px;
+            }
+            footer {
+    background-color: #0042A3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width:100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h1>BERMINGHAM SHOES</h1></a>
+             <ul>
+                <li><a href="featuredShoes.html">Featured Shoes</a></li>
+                <li><a href="newArrivals.html">New Arrivals</a></li>
+                <li><a href="BestSeller.html">Best Sellers</a></li>
+                <li class="cart"><a href="Cart.html">Cart</a></li>
+                <li class="login"><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+     <main>
+        <br><br><br>
+    <div class="container">
+        <form class="login-form" action="/login" method="POST">
+            <h2>Login to Your Account</h2>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Your password" required>
+            
+            <button type="submit">Login</button>
+            <p class="forgot-password"><a href="#">Forgot Password?</a></p>
+            <p class="signup-link">Don't have an account? <a href="Signup.html">Sign up</a></p>
+        </form>
+    </div>
+        </main>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+ <footer>
+        <p>&copy; 2023 Modern Shoe Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
